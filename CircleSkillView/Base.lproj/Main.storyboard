@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cQR-ly-A0u"/>
+                        <viewControllerLayoutGuide type="bottom" id="EwW-nL-Lhl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="NYLineClassView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ptv-r7-QUD">
+                                <rect key="frame" x="0.0" y="76" width="375" height="165"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfb-w6-Zbc">
+                                        <rect key="frame" x="35" y="19" width="60" height="60"/>
+                                        <color key="backgroundColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="4oR-MN-fWv"/>
+                                            <constraint firstAttribute="height" constant="60" id="vOq-eX-IK8"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <color key="titleColor" red="1" green="0.99993407656985522" blue="0.19619800028354384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="userToClickdo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNP-GG-1S7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HU-ju-Eqf">
+                                        <rect key="frame" x="157" y="19" width="60" height="60"/>
+                                        <color key="backgroundColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="AbN-Ms-IyG"/>
+                                            <constraint firstAttribute="width" constant="60" id="CLS-FY-Vtd"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <color key="titleColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="userToClickdo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vda-Hk-10N"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFO-25-5bs">
+                                        <rect key="frame" x="274" y="19" width="60" height="60"/>
+                                        <color key="backgroundColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="0k3-6R-Fod"/>
+                                            <constraint firstAttribute="width" constant="60" id="xwb-n6-mDi"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <color key="titleColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="userToClickdo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="24c-2w-S7q"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypx-eU-hc2">
+                                        <rect key="frame" x="35" y="97" width="60" height="60"/>
+                                        <color key="backgroundColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="YyP-gN-Avc"/>
+                                            <constraint firstAttribute="height" constant="60" id="bf2-cM-N1e"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <color key="titleColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="userToClickdo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T3j-bJ-hqf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29Q-pz-k7e">
+                                        <rect key="frame" x="157" y="94" width="60" height="60"/>
+                                        <color key="backgroundColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="akh-jj-NSv"/>
+                                            <constraint firstAttribute="height" constant="60" id="dCf-Fq-pVl"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <color key="titleColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="userToClickdo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fQN-pp-vX8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17W-iY-baK">
+                                        <rect key="frame" x="274" y="94" width="60" height="60"/>
+                                        <color key="backgroundColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="JG7-hJ-gyB"/>
+                                            <constraint firstAttribute="height" constant="60" id="vNv-iA-qrH"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <color key="titleColor" red="1" green="0.9999340766" blue="0.19619800030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="userToClickdo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GMB-6i-buG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="29Q-pz-k7e" firstAttribute="centerX" secondItem="ptv-r7-QUD" secondAttribute="centerX" id="42v-4w-Gjp"/>
+                                    <constraint firstItem="ypx-eU-hc2" firstAttribute="top" secondItem="Lfb-w6-Zbc" secondAttribute="bottom" constant="18" id="4SR-EZ-zq1"/>
+                                    <constraint firstAttribute="height" constant="165" id="6Xd-p1-Ay5"/>
+                                    <constraint firstItem="17W-iY-baK" firstAttribute="top" secondItem="hFO-25-5bs" secondAttribute="bottom" constant="15" id="ANZ-8z-bK6"/>
+                                    <constraint firstItem="7HU-ju-Eqf" firstAttribute="centerX" secondItem="ptv-r7-QUD" secondAttribute="centerX" id="D3R-Lb-96E"/>
+                                    <constraint firstItem="ypx-eU-hc2" firstAttribute="leading" secondItem="ptv-r7-QUD" secondAttribute="leading" constant="35" id="Fe0-Dl-lJV"/>
+                                    <constraint firstItem="Lfb-w6-Zbc" firstAttribute="top" secondItem="ptv-r7-QUD" secondAttribute="top" constant="19" id="JUf-JF-NsP"/>
+                                    <constraint firstItem="7HU-ju-Eqf" firstAttribute="top" secondItem="ptv-r7-QUD" secondAttribute="top" constant="19" id="JW9-WO-z46"/>
+                                    <constraint firstItem="29Q-pz-k7e" firstAttribute="top" secondItem="7HU-ju-Eqf" secondAttribute="bottom" constant="15" id="KeQ-cb-BGk"/>
+                                    <constraint firstItem="hFO-25-5bs" firstAttribute="top" secondItem="ptv-r7-QUD" secondAttribute="top" constant="19" id="OVg-0h-CGq"/>
+                                    <constraint firstAttribute="trailing" secondItem="17W-iY-baK" secondAttribute="trailing" constant="41" id="RrK-jA-fKk"/>
+                                    <constraint firstAttribute="bottom" secondItem="29Q-pz-k7e" secondAttribute="bottom" constant="11" id="Twy-EP-hAT"/>
+                                    <constraint firstAttribute="trailing" secondItem="hFO-25-5bs" secondAttribute="trailing" constant="41" id="cYl-cV-9pG"/>
+                                    <constraint firstItem="Lfb-w6-Zbc" firstAttribute="leading" secondItem="ptv-r7-QUD" secondAttribute="leading" constant="35" id="evr-M7-AJG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ptv-r7-QUD" firstAttribute="top" secondItem="cQR-ly-A0u" secondAttribute="bottom" constant="56" id="NK6-RH-fUn"/>
+                            <constraint firstItem="ptv-r7-QUD" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="WQq-YD-H22"/>
+                            <constraint firstItem="ptv-r7-QUD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kqV-ew-FZq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="userView" destination="ptv-r7-QUD" id="E08-ND-fBE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="82.3088455772114"/>
+        </scene>
+    </scenes>
+</document>

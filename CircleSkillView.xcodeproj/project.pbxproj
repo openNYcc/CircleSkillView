@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B281A15420C12A6600DCB2B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A15320C12A6600DCB2B5 /* AppDelegate.m */; };
+		B281A15720C12A6600DCB2B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A15620C12A6600DCB2B5 /* ViewController.m */; };
+		B281A15A20C12A6600DCB2B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B281A15820C12A6600DCB2B5 /* Main.storyboard */; };
+		B281A15C20C12A6700DCB2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B281A15B20C12A6700DCB2B5 /* Assets.xcassets */; };
+		B281A15F20C12A6700DCB2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B281A15D20C12A6700DCB2B5 /* LaunchScreen.storyboard */; };
+		B281A16220C12A6700DCB2B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A16120C12A6700DCB2B5 /* main.m */; };
+		B281A16D20C131E100DCB2B5 /* NYStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A16A20C131E100DCB2B5 /* NYStackLayout.m */; };
+		B281A16E20C131E100DCB2B5 /* NYCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A16C20C131E100DCB2B5 /* NYCircleLayout.m */; };
+		B281A17120C131FA00DCB2B5 /* NYLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A16F20C131FA00DCB2B5 /* NYLineLayout.m */; };
+		B281A17520C1321D00DCB2B5 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B281A17320C1321D00DCB2B5 /* ImageCell.xib */; };
+		B281A17620C1321D00DCB2B5 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A17420C1321D00DCB2B5 /* ImageCell.m */; };
+		B281A17820C1628000DCB2B5 /* libReveal.plist in Resources */ = {isa = PBXBuildFile; fileRef = B281A17720C1628000DCB2B5 /* libReveal.plist */; };
+		B281A17C20C4E2CB00DCB2B5 /* NYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A17A20C4E2CB00DCB2B5 /* NYCollectionViewCell.m */; };
+		B281A18020C67ADF00DCB2B5 /* NYLineClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = B281A17F20C67ADF00DCB2B5 /* NYLineClassView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B281A14F20C12A6600DCB2B5 /* CircleSkillView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleSkillView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B281A15220C12A6600DCB2B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B281A15320C12A6600DCB2B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B281A15520C12A6600DCB2B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B281A15620C12A6600DCB2B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B281A15920C12A6600DCB2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B281A15B20C12A6700DCB2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B281A15E20C12A6700DCB2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B281A16020C12A6700DCB2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B281A16120C12A6700DCB2B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B281A16920C131E000DCB2B5 /* NYCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYCircleLayout.h; sourceTree = "<group>"; };
+		B281A16A20C131E100DCB2B5 /* NYStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYStackLayout.m; sourceTree = "<group>"; };
+		B281A16B20C131E100DCB2B5 /* NYStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYStackLayout.h; sourceTree = "<group>"; };
+		B281A16C20C131E100DCB2B5 /* NYCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYCircleLayout.m; sourceTree = "<group>"; };
+		B281A16F20C131FA00DCB2B5 /* NYLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYLineLayout.m; sourceTree = "<group>"; };
+		B281A17020C131FA00DCB2B5 /* NYLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYLineLayout.h; sourceTree = "<group>"; };
+		B281A17220C1321C00DCB2B5 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		B281A17320C1321D00DCB2B5 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		B281A17420C1321D00DCB2B5 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		B281A17720C1628000DCB2B5 /* libReveal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = libReveal.plist; sourceTree = "<group>"; };
+		B281A17920C4E2CB00DCB2B5 /* NYCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCollectionViewCell.h; sourceTree = "<group>"; };
+		B281A17A20C4E2CB00DCB2B5 /* NYCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCollectionViewCell.m; sourceTree = "<group>"; };
+		B281A17E20C67ADF00DCB2B5 /* NYLineClassView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYLineClassView.h; sourceTree = "<group>"; };
+		B281A17F20C67ADF00DCB2B5 /* NYLineClassView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYLineClassView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B281A14C20C12A6600DCB2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B281A14620C12A6600DCB2B5 = {
+			isa = PBXGroup;
+			children = (
+				B281A17720C1628000DCB2B5 /* libReveal.plist */,
+				B281A15120C12A6600DCB2B5 /* CircleSkillView */,
+				B281A15020C12A6600DCB2B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B281A15020C12A6600DCB2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B281A14F20C12A6600DCB2B5 /* CircleSkillView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B281A15120C12A6600DCB2B5 /* CircleSkillView */ = {
+			isa = PBXGroup;
+			children = (
+				B281A17220C1321C00DCB2B5 /* ImageCell.h */,
+				B281A17420C1321D00DCB2B5 /* ImageCell.m */,
+				B281A17320C1321D00DCB2B5 /* ImageCell.xib */,
+				B281A16820C1319D00DCB2B5 /* LayoutView */,
+				B281A15220C12A6600DCB2B5 /* AppDelegate.h */,
+				B281A15320C12A6600DCB2B5 /* AppDelegate.m */,
+				B281A15520C12A6600DCB2B5 /* ViewController.h */,
+				B281A15620C12A6600DCB2B5 /* ViewController.m */,
+				B281A15820C12A6600DCB2B5 /* Main.storyboard */,
+				B281A15B20C12A6700DCB2B5 /* Assets.xcassets */,
+				B281A15D20C12A6700DCB2B5 /* LaunchScreen.storyboard */,
+				B281A16020C12A6700DCB2B5 /* Info.plist */,
+				B281A16120C12A6700DCB2B5 /* main.m */,
+				B281A17920C4E2CB00DCB2B5 /* NYCollectionViewCell.h */,
+				B281A17A20C4E2CB00DCB2B5 /* NYCollectionViewCell.m */,
+				B281A17E20C67ADF00DCB2B5 /* NYLineClassView.h */,
+				B281A17F20C67ADF00DCB2B5 /* NYLineClassView.m */,
+			);
+			path = CircleSkillView;
+			sourceTree = "<group>";
+		};
+		B281A16820C1319D00DCB2B5 /* LayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				B281A17020C131FA00DCB2B5 /* NYLineLayout.h */,
+				B281A16F20C131FA00DCB2B5 /* NYLineLayout.m */,
+				B281A16920C131E000DCB2B5 /* NYCircleLayout.h */,
+				B281A16C20C131E100DCB2B5 /* NYCircleLayout.m */,
+				B281A16B20C131E100DCB2B5 /* NYStackLayout.h */,
+				B281A16A20C131E100DCB2B5 /* NYStackLayout.m */,
+			);
+			path = LayoutView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B281A14E20C12A6600DCB2B5 /* CircleSkillView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B281A16520C12A6700DCB2B5 /* Build configuration list for PBXNativeTarget "CircleSkillView" */;
+			buildPhases = (
+				B281A14B20C12A6600DCB2B5 /* Sources */,
+				B281A14C20C12A6600DCB2B5 /* Frameworks */,
+				B281A14D20C12A6600DCB2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleSkillView;
+			productName = CircleSkillView;
+			productReference = B281A14F20C12A6600DCB2B5 /* CircleSkillView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B281A14720C12A6600DCB2B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ningye;
+				TargetAttributes = {
+					B281A14E20C12A6600DCB2B5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B281A14A20C12A6600DCB2B5 /* Build configuration list for PBXProject "CircleSkillView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B281A14620C12A6600DCB2B5;
+			productRefGroup = B281A15020C12A6600DCB2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B281A14E20C12A6600DCB2B5 /* CircleSkillView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B281A14D20C12A6600DCB2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B281A15F20C12A6700DCB2B5 /* LaunchScreen.storyboard in Resources */,
+				B281A17820C1628000DCB2B5 /* libReveal.plist in Resources */,
+				B281A17520C1321D00DCB2B5 /* ImageCell.xib in Resources */,
+				B281A15C20C12A6700DCB2B5 /* Assets.xcassets in Resources */,
+				B281A15A20C12A6600DCB2B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B281A14B20C12A6600DCB2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B281A15720C12A6600DCB2B5 /* ViewController.m in Sources */,
+				B281A16E20C131E100DCB2B5 /* NYCircleLayout.m in Sources */,
+				B281A16D20C131E100DCB2B5 /* NYStackLayout.m in Sources */,
+				B281A18020C67ADF00DCB2B5 /* NYLineClassView.m in Sources */,
+				B281A17620C1321D00DCB2B5 /* ImageCell.m in Sources */,
+				B281A16220C12A6700DCB2B5 /* main.m in Sources */,
+				B281A17120C131FA00DCB2B5 /* NYLineLayout.m in Sources */,
+				B281A15420C12A6600DCB2B5 /* AppDelegate.m in Sources */,
+				B281A17C20C4E2CB00DCB2B5 /* NYCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B281A15820C12A6600DCB2B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B281A15920C12A6600DCB2B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B281A15D20C12A6700DCB2B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B281A15E20C12A6700DCB2B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B281A16320C12A6700DCB2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B281A16420C12A6700DCB2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B281A16620C12A6700DCB2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleSkillView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.zxkj.cn.CircleSkillView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B281A16720C12A6700DCB2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CircleSkillView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.zxkj.cn.CircleSkillView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B281A14A20C12A6600DCB2B5 /* Build configuration list for PBXProject "CircleSkillView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B281A16320C12A6700DCB2B5 /* Debug */,
+				B281A16420C12A6700DCB2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B281A16520C12A6700DCB2B5 /* Build configuration list for PBXNativeTarget "CircleSkillView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B281A16620C12A6700DCB2B5 /* Debug */,
+				B281A16720C12A6700DCB2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B281A14720C12A6600DCB2B5 /* Project object */;
+}
