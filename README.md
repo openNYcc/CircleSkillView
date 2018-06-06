@@ -1,6 +1,6 @@
 # CircleSkillView
 
-#主要的核心代码， 有更好方法的可以提，望能帮助到你
+#主要的核心代码， 有更好方法的可以提，希望能帮助到你
 
 -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
 {
